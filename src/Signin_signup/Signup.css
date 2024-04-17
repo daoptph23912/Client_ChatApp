@@ -1,0 +1,98 @@
+.content{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.input{
+    border-radius: 2em;
+    width: auto;
+    height: auto;
+    
+}
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Đảm bảo các phần tử bên trong form căn giữa */
+    width: 100%;/*
+    
+     Sử dụng chiều cao của toàn bộ màn hình */
+     height: 400px;
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+.fontSignup{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+  .name {
+    color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  .editname {
+    font-size: large;
+    height: auto;
+    width: 300px;
+    border-radius: 4px;
+    height: 30px;
+    font-size: 1rem;
+
+  }
+  
+  .passWord {
+    font-weight: bold;
+    color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .textPassWord {
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
+    font-size: large;
+    border-radius: 4px;
+  }
+  
+  .Button, .Signup {
+    background-color: orange;
+    padding: 10px;
+    width: 150px; /* Độ rộng tùy chỉnh */
+    margin-top: px;
+    text-align: center; /* Căn giữa văn bản trong nút */
+    border: none; /* Loại bỏ viền */
+    color: white; /* Màu chữ */
+    cursor: pointer; /* Biến con trỏ thành pointer khi di chuột vào */
+    font-size: large;
+    margin-right: 15px;
+  }
+  .textBtn{
+    text-decoration: underline;
+  }
+  .Signup {
+    text-decoration: none;/* Tăng khoảng cách giữa nút "Login" và "Sign up" */
+  }
+  .bkav{
+    text-align: left;
+    margin: 10px;
+    font-size: 50px;
+  }
+  .ntfScc{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+  }
+  .hi{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold ;
+    text-decoration: none;
+  }
+  .error{
+    color: red;
+    margin: 10px;
+  }

@@ -1,38 +1,113 @@
 .App {
   text-align: center;
+  background: linear-gradient(gray, black);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* body {
+  background: linear-gradient(gray, black);
+} */
+.chat-item {
+  width: 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.your-message {
+  background: #009bff;
+  margin: 1em;
+  border-radius: 1em;
+  padding: 1em;
   color: white;
+  float: right;
 }
 
-.App-link {
-  color: #61dafb;
+.other-people {
+  background: #868686;
+  margin: 1em;
+  border-radius: 1em;
+  padding: 1em;
+  color: white;
+  text-align: left;
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-chat_message {
+  min-height: 60vh;  
+  max-height: 60vh;  
+  overflow-y: auto;
+  
+}
+.box-chat {
+  width:70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 0 0 10px 0 black;
+  border-radius: 1em;
+}
+
+.send-box {
+  width: 100%;
+  padding: 1em;
+}
+
+input {
+  height: 40px;
+  width: calc(100% - 80px); /* Chiều rộng của input là 100% trừ đi kích thước của button */
+  margin: 0;
+  padding: 10px 15px; /* Khoảng cách lề trong input */
+  background: #ebf5ff;
+  border-radius: 2em; 
+  border: none;
+  float: left;
+  box-sizing: border-box; /* Đảm bảo rằng padding không tăng kích thước của input */
+}
+
+button {
+  width: 40px;
+  height: 40px; /* Thiết lập chiều cao */
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+  padding: 0 15px; /* Điều chỉnh khoảng cách giữa nút và biểu tượng */
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center; /* Hiển thị hình ảnh ở giữa nút */
+  background-size: 20px; /* Kích thước của hình ảnh */
+
+}
+.img{
+  background-image: url('./iconmsg.png');
+}
+button:hover {
+  filter: brightness(90%); /* Giảm độ sáng của hình ảnh khi hover */
+}
+
+textarea:focus {
+  outline: 0; /* Loại bỏ viền xung quanh khi focus vào textarea */
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dadada;
+  border-radius: 1em;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.usernameMSG{
+  font-weight: bold;
+  margin: 20px;
+
 }
