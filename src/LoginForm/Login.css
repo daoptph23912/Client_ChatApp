@@ -1,32 +1,32 @@
-.container{
+    .containerr{
    width: 100%;
    height: 100%;
    align-items: center;
    justify-content: center;
    display: flex;
 }
-.logo > img{
+.logoo > img{
    max-width: 100px;
    height: auto;
    margin-top: 30px;
    margin-left: 56px;
 }
-.content {
+.contentt {
     margin-top: 70px;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     margin-left: 0px;
-    width: 60%;
+    max-width: 70%;
     display: flex;
 
 }
-.description-1{
+.description-11{
     font-family: "Roboto", sans-serif;
     font-size: 58px;
     line-height: 77px;
-    font-weight: lighter
+    font-weight: lighter;
 }
-.description-2{
+.description-22{
     font-family: "Roboto", sans-serif;
     margin-top: 50px;
     font-size: 23px;
@@ -36,10 +36,9 @@
 .image1 > img{
     width: 310px;
     height: auto;
-    margin-left:100px;
 }
 
-.choose-language{
+.choose-languagee{
     height: 100%;
     border: 0;
     background-color: transparent;
@@ -51,32 +50,32 @@
     margin-right: 15px;
     justify-content: center;
 }
-.choose{
+.choosee{
     display: flex;
     margin-bottom: 100px;
     justify-content: center;
     gap: 2px;
 }
-.choose-page{
+.choose-pagee{
     display: flex;
     
 }
-.content-btn{
+.content-btnn{
     margin-right: 15px;
 }
- .form-1 > form {
+ .form-11 > form {
     display: flex;
     flex-direction: column; 
     gap: 20px;
 }
- .form-control {
+ .form-controll {
     display: flex;
     width: 400px;
     height: 60px;
     background-color: #EAF0F7;
     border-radius: 10px;
 }
- .form-control > input {
+ .form-controll > input {
     flex-grow: 1;
     border: 0;
     margin: 0;
@@ -91,25 +90,25 @@
     line-height: 77px;
     align-self: center;
 }
- .form-control > input[type='text'] {
+ .form-controll > input[type='text'] {
     letter-spacing: 9%;
 }
- .form-control > input:focus {
+ .form-controll > input:focus {
     outline: none;
 }
- .div-forgot-password {
+.div-forgot-passwordd {
     display: flex;
     justify-content: end;
+    margin-top: 20px;
 }
-
- .div-forgot-password > span {
+ .div-forgot-passwordd > span {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: #C7C7C7;
 }
 
- .div-forgot-password > span:hover {
+ .div-forgot-passwordd > span:hover {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -117,33 +116,34 @@
  .div-btn-submit {
     margin-top: 30px;
 }
-.form-control1  {
+.form-control11  {
     border-radius: 10px;
     width: 100%;
     height: 60px;
-    background-color: #4461F2;
-    color: #FFFFFF;
+    /* background-color: #4461F2;
+    color: #FFFFFF; */
     /* box-shadow: 0 12px 21px 4px rgba(68, 97, 242, 0.15); */
     font-size: 19px;
 }
-.form-control1 > button{
+.button{
+    margin-top: 50px;
     width: 380px ;
     height: 100%;
     background-color: #4461F2;
 }
 
-.div-btn-submit > button:hover {
+/* .div-btn-submit > button:hover {
     cursor: pointer;
-}
+} */
 
- .other-connect {
+ .other-connectt {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 70px;
 }   
 .header{
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 .line{
     width: 120px;
@@ -175,14 +175,18 @@
     justify-content: center;
    
 }
-.option{
+.optionn{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 10px;
 }
-.option >img{
+.optionn >img{
     width: 18.5px;
     height: 18.5px;
 }
-
+.input-login-signupp{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}

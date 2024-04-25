@@ -1,5 +1,4 @@
 import React from "react";
-import "./Login.css";
 import logo from "../images/logo.png";
 import eye from "../images/eye.png";
 import fb from "../images/fb.png";
@@ -7,46 +6,47 @@ import gg from "../images/gg.png";
 import image1 from "../images/image1.png";
 import x from "../images/x.png";
 import ap from "../images/apple.png";
-
+import "./Login.css"
+import { Link } from "react-router-dom";
 export default function Login() {
   return (
     <form>
-      <div className="logo">
+      <div className="logoo">
         <img src={logo} />
       </div>
-      <header className="container">
-        <div className="content">
+      <div className="containerr">
+        <div className="contentt">
           <div>
-            <div className="description-1">
+            <div className="description-11">
               Đăng nhập để
               <br /> kết nối
             </div>
-            <div className="description-2">
+            <div className="description-22">
               Nếu chưa có tài khoản thì
-              <br /> đăng kí tại <span>đây</span>
+              <br /> đăng kí tại <span><Link to="/signup">đây</Link></span>
             </div>
           </div>
           <div className="image1">
             <img src={image1} />
           </div>
         </div>
-        <div className="input-login-signup">
-          <div className="choose">
-            <div className="choose-language">
-              <select className="choose-language" id="choose-language">
+        <div className="input-login-signupp">
+          <div className="choosee">
+            <div className="choose-languagee">
+              <select className="choose-languagee" id="choose-languagee"> 
                 <option value="vi">Tiếng Việt</option>
                 <option value="en">English</option>
               </select>
             </div>
-            <div className="choose-page">
+            <div className="choose-pagee">
               <div className="btn-choose-page">
-                <div className="content-btn">
+                <div className="content-btnn">
                   <span>Đăng nhập</span>
                 </div>
                 <div className="line-bottom"></div>
               </div>
               <div className="btn-choose-page ">
-                <div className="content-btn">
+                <div className="content-btnn">
                   <span>Đăng ký</span>
                 </div>
                 <div className="line-bottom"></div>
@@ -55,36 +55,36 @@ export default function Login() {
           </div>
           <div className="form">
             <div className="null"></div>
-            <div className="form-1">
+            <div className="form-11">
               <form className="witdh" method="post">
-                <div className="form-control">
+                <div className="form-controll">
                   <input
                     type="text"
                     name="username"
                     placeholder="Nhập tài khoản"
                   />
-                  <div className="option">
+                  <div className="optionn">
                     <img src={x} alt="Delete" />
                   </div>
                 </div>
-                <div className="form-control">
+                <div className="form-controll">
                   <input
                     type="password"
                     name="password"
                     placeholder="••••••••"
                   />
-                  <div className="option">
+                  <div className="optionn">
                     <img src={eye} alt="Show" />
                   </div>
                 </div>
-                <div className="div-forgot-password">
+                <div className="div-forgot-passwordd">
                   <span>Quên mật khẩu ?</span>
                 </div>
-                <div className="form-control1">
+                <div className="form-control11">
                   <button className="button"> Đăng nhập</button>
                 </div>
               </form>
-              <div className="other-connect">
+              <div className="other-connectt">
                 <div className="header">
                   <div className="line"></div>
                   <div className="title">
@@ -93,13 +93,13 @@ export default function Login() {
                   <div className="line"></div>
                 </div>
                 <div className="content">
-                  <div class="item">
+                  <div className="item">
                     <img src={gg} alt="Google" />
                   </div>
-                  <div class="item">
+                  <div className="item">
                     <img src={ap} alt="Apple" />
                   </div>
-                  <div class="item">
+                  <div className="item">
                     <img src={fb} alt="Facebook" />
                   </div>
                 </div>
@@ -107,7 +107,7 @@ export default function Login() {
             </div>
           </div>
         </div>
-      </header>
+      </div>
     </form>
   );
 }

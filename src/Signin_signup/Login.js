@@ -35,7 +35,7 @@ export default function Login() {
   };
 
   return (
-    <form onSubmit={handleLogin}>
+    <form action="post" onSubmit={handleLogin}>
       <h1 className="bkav"  >Bkav</h1>
       <div className="form1">
         <h1 className="login">Login</h1>
